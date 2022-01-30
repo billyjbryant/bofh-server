@@ -13,7 +13,7 @@
     "sls": "node_modules/.bin/serverless"
   },
   "dependencies": {
-    "node-fetch": "2",
+    "node-fetch": "3",
     "serverless": "^3.0.1"
   },
   "devDependencies": {
