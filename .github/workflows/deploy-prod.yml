@@ -1,0 +1,21 @@
+name: Deploy BOFH to Prod
+on:
+  push:
+    branches:
+      - main
+jobs:
+  deploy-prod:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-node@v1
+      with:
+        node-version: '14.x'
+    - name: Install Serverless Framework
+      run: npm install -g serverless
+    - name: Serverless AWS authentication
+      run: sls config credentials --provider aws --key ${{ secrets.AWS_ACCESS_KEY_ID }} --secret ${{ secrets.AWS_SECRET_ACCESS_KEY }} --region ${{ secrets.AWS_REGION }}
+    - name: Install NPM dependencies
+      run: npm install
+    - name: Deploy Lambda functions
+      run: sls deploy -s prod
