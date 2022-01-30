@@ -13,12 +13,8 @@
     "sls": "node_modules/.bin/serverless"
   },
   "dependencies": {
-    "aws-sdk": "^2.1066.0",
-    "express": "^4.17.2",
-    "logger": "^0.0.1",
     "node-fetch": "2",
-    "serverless": "^3.0.1",
-    "serverless-http": "^2.7.0"
+    "serverless": "^3.0.1"
   },
   "devDependencies": {
     "serverless-domain-manager": "^5.8.0",
