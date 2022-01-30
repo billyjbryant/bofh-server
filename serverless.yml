@@ -1,0 +1,41 @@
+service: bofh-server
+
+plugins:
+  - serverless-offline
+  - serverless-domain-manager
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  stage: dev
+  region: us-west-2
+  tags:
+    name: ${self:service}
+  logs:
+    restApi:
+      level: INFO
+      accessLogging: true
+      executionLogging: false
+      fullExecutionData: false
+  environment:
+    #EXCUSES_URL: 'https://pages.cs.wisc.edu/~ballard/bofh/excuses'
+ 
+functions:
+  app:
+    name: ${self:service}
+    handler: index.handler
+    events:
+      - http: GET /
+
+custom:
+  serverless-offline:	
+    httpPort: 4000	
+  customDomain:
+    domainName: ${self:service}.api.billyjbryant.com	
+    stage: ${sls:stage}
+    certificateName: '*.api.billyjbryant.com'
+    createRoute53Record: false
+    endpointType: 'regional'
+    securityPolicy: tls_1_2
+    autoDomain: false
+

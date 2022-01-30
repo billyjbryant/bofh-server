@@ -1,0 +1,27 @@
+{
+  "name": "bofh-server",
+  "version": "0.0.1",
+  "description": "Vends Ready to use Excuses inspired by the Bastard Operator from Hell by Simon Travaglia",
+  "main": "index.js",
+  "repository": "https://github.com/billyjbryant/bofh-server",
+  "author": "BillyJBryant (billy@billyjbryant.com)",
+  "license": "CC0-1.0",
+  "scripts": {
+    "deploy": "node_modules/.bin/serverless deploy",
+    "offline": "node_modules/.bin/serverless offline",
+    "create_domain": "node_modules/.bin/serverless create_domain",
+    "sls": "node_modules/.bin/serverless"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1066.0",
+    "express": "^4.17.2",
+    "logger": "^0.0.1",
+    "node-fetch": "2",
+    "serverless": "^3.0.1",
+    "serverless-http": "^2.7.0"
+  },
+  "devDependencies": {
+    "serverless-domain-manager": "^5.8.0",
+    "serverless-offline": "^8.4.0"
+  }
+}
