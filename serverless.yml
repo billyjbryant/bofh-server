@@ -3,6 +3,7 @@ service: bofh-server
 plugins:
   - serverless-offline
   - serverless-domain-manager
+  - serverless-cloudflare-dns
 
 provider:
   name: aws
@@ -38,4 +39,10 @@ custom:
     endpointType: 'regional'
     securityPolicy: tls_1_2
     autoDomain: false
-
+  cloudflare:
+    domain: 'billyjbryant.com'
+    auth:
+      apiToken: ${env:CLOUDFLARE_API_TOKEN}
+    record:
+      name: ${self:custom.customDomain.domainName}
+      content: !ImportValue sls-bofh-server-prod-DistributionDomainName
