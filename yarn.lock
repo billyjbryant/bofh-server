@@ -4220,7 +4220,7 @@ semver@^7.1.1, semver@^7.3.4, semver@^7.3.5:
   dependencies:
     lru-cache "^6.0.0"
 
-serverless-cloudflare-dns@^0.4.9:
+serverless-cloudflare-dns@0.4.9:
   version "0.4.9"
   resolved "https://registry.yarnpkg.com/serverless-cloudflare-dns/-/serverless-cloudflare-dns-0.4.9.tgz#f43825c86bde026fd635aaa2c3c7934f5138808c"
   integrity sha512-A6obVKEnqG/ewwUCglDfdlxMuTSjJIHCVaoANHL6S/Yip/J4cHlQ/OcrQFvWisdMh7ox1FaAyMA6GQli+0+DDw==
