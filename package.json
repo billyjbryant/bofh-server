@@ -4,7 +4,7 @@
   "description": "Vends Ready to use Excuses inspired by the Bastard Operator from Hell by Simon Travaglia",
   "main": "index.js",
   "repository": "https://github.com/billyjbryant/bofh-server",
-  "author": "BillyJBryant (billy@billyjbryant.com)",
+  "author": "BillyJBryant",
   "license": "CC0-1.0",
   "scripts": {
     "deploy": "node_modules/.bin/serverless deploy",
