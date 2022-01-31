@@ -3145,7 +3145,7 @@ semver@^7.3.4, semver@^7.3.5:
   dependencies:
     lru-cache "^6.0.0"
 
-serverless-domain-manager@^5.8.0:
+serverless-domain-manager@5.8.0:
   version "5.8.0"
   resolved "https://registry.yarnpkg.com/serverless-domain-manager/-/serverless-domain-manager-5.8.0.tgz#67cbdf39c1bea98cb3df49a91af623fffacb5c53"
   integrity sha512-AaSmJAc51aEvIaj7RHS3C1apkf1EJ2g9C5rDM+5I7EMlNJmj8u+gKc+7v7vtae17YEdGB3nrXoUYknJ3Gaxl4g==
@@ -3153,7 +3153,7 @@ serverless-domain-manager@^5.8.0:
     aws-sdk "^2.1064.0"
     chalk "^4.1.2"
 
-serverless-offline@^8.4.0:
+serverless-offline@8.4.0:
   version "8.4.0"
   resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-8.4.0.tgz#1750a4e069fbe1f42a9f148472b0b0cab327ac4b"
   integrity sha512-9vND+6ess5NWUCNvG/v6Z7mqksODV5PWHNjCSs9jAslZwDOG/sVMOahe10pUxusYnMz5BeDBmLnF3M2jmCrKvQ==
