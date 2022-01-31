@@ -12,7 +12,7 @@ jobs:
       with:
         node-version: '14.x'
     - name: Install Serverless Framework
-      run: yarn add -g serverless
+      run: yarn global add serverless
     - name: Serverless AWS authentication
       run: sls config credentials --provider aws --key ${{ secrets.AWS_ACCESS_KEY_ID }} --secret ${{ secrets.AWS_SECRET_ACCESS_KEY }} --profile default
     - name: Install NPM dependencies
