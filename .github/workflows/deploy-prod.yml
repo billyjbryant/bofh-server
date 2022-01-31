@@ -22,4 +22,6 @@ jobs:
     - name: Install NPM dependencies
       run: yarn install
     - name: Deploy Lambda functions
-      run: yarn deploy -s prod
+      run: sls deploy -s prod
+    - name: Update Cloudflare DNS Record
+      run: sls cloudflare record update
