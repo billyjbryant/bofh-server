@@ -18,4 +18,4 @@ jobs:
     - name: Install NPM dependencies
       run: yarn install
     - name: Deploy Lambda functions
-      run: sls deploy -s prod
+      run: yarn deploy -s prod
