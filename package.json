@@ -19,6 +19,6 @@
   "devDependencies": {
     "serverless-cloudflare-dns": "0.4.9",
     "serverless-domain-manager": "5.8.0",
-    "serverless-offline": "8.4.0"
+    "serverless-offline": "11.5.0"
   }
 }
