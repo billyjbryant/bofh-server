@@ -11,8 +11,8 @@ jobs:
   deploy-prod:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@latest
-    - uses: actions/setup-node@latest
+    - uses: actions/checkout@v3.3.0
+    - uses: actions/setup-node@3.6.0
       with:
         node-version: '18.x'
     - name: Install Serverless Framework
