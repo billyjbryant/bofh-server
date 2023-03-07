@@ -688,26 +688,10 @@ aws-sdk@^2.1065.0:
     uuid "3.3.2"
     xml2js "0.4.19"
 
-aws-sdk@^2.1136.0:
+aws-sdk@^2.1136.0, aws-sdk@^2.1322.0:
   version "2.1330.0"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1330.0.tgz#a83b50b7e574abb4776f9c5fe43bd14c65861a87"
   integrity sha512-W66mFdzTigQQnJVcClNRJs6tSgd5pVVmSZ/sIlHyBdfmoWAteV2PI8pNrM1TliAlbhI0ZBUjvViMBrG3eOpIxQ==
-  dependencies:
-    buffer "4.9.2"
-    events "1.1.1"
-    ieee754 "1.1.13"
-    jmespath "0.16.0"
-    querystring "0.2.0"
-    sax "1.2.1"
-    url "0.10.3"
-    util "^0.12.4"
-    uuid "8.0.0"
-    xml2js "0.4.19"
-
-aws-sdk@^2.1243.0:
-  version "2.1258.0"
-  resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.1258.0.tgz#35cadaef14e2cebe0ed13029d2d9f84bb3cf2e8b"
-  integrity sha512-siqNFXlhJZVN1BizPZebJViFXtTUPgcA+yLfHKl2eC4Ied7kE7spOjZmAzpuiGUTzFagk1oWCaJ1Hit4llIoGg==
   dependencies:
     buffer "4.9.2"
     events "1.1.1"
@@ -3908,12 +3892,12 @@ serverless-cloudflare-dns@0.4.9:
     ramda "0.27.0"
     standard-version "8.0.2"
 
-serverless-domain-manager@6.2.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/serverless-domain-manager/-/serverless-domain-manager-6.2.0.tgz#feccd2d7410ba9d5ea776b186b56f3f694239f0d"
-  integrity sha512-77qJ3xE7tjRGnNc/qidoaN3uFyspJhRLhZNKjvwaUwO5BfCIFgvUHHgotFH9qddeTz9ObLXz5uvjl7rZ9Jp2Zw==
+serverless-domain-manager@6.4.4:
+  version "6.4.4"
+  resolved "https://registry.yarnpkg.com/serverless-domain-manager/-/serverless-domain-manager-6.4.4.tgz#6432b6151b6695535c382377c642050e0bf29aae"
+  integrity sha512-TrEjJgEY7sLbutWckfOAunduXUsQ/QkiGZwqfpvHttIDnkED10gQM1CJUj2K4UE+ih+QN3rKuHnc6Y6U5OnR0w==
   dependencies:
-    aws-sdk "^2.1243.0"
+    aws-sdk "^2.1322.0"
 
 serverless-offline@8.8.1:
   version "8.8.1"
