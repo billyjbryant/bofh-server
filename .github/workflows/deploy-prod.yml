@@ -22,7 +22,6 @@ jobs:
   deploy-prod:
     runs-on: ubuntu-latest
     environment: production
-    concurrency: production
     steps:
     - uses: actions/checkout@v3.3.0
     - uses: actions/setup-node@v3.6.0
