@@ -1,6 +1,6 @@
 {
   "name": "bofh-server",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Vends Ready to use Excuses inspired by the Bastard Operator from Hell by Simon Travaglia",
   "main": "index.js",
   "repository": "https://github.com/billyjbryant/bofh-server",
