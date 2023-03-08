@@ -4153,7 +4153,7 @@ node-domexception@^1.0.0:
   resolved "https://registry.yarnpkg.com/node-domexception/-/node-domexception-1.0.0.tgz#6888db46a1f71c0b76b3f7555016b63fe64766e5"
   integrity sha512-/jKZoMpw0F8GRwl4/eLROPA3cfcXtLApP0QzLmUT/HuPCZWyB7IY9ZrMeKw2O/nFIqPQB3PVM9aYm0F312AXDQ==
 
-node-fetch@2, node-fetch@^2.6.7, node-fetch@^2.6.8, node-fetch@^2.6.9:
+node-fetch@<3.0.0, node-fetch@^2.6.7, node-fetch@^2.6.8, node-fetch@^2.6.9:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.9.tgz#7c7f744b5cc6eb5fd404e0c7a9fec630a55657e6"
   integrity sha512-DJm/CJkZkRjKKj4Zi4BsKVZh3ValV5IR5s7LVZnW+6YMh0W1BfNA8XSs6DLMGYlId5F3KnA70uu2qepcR08Qqg==
@@ -4871,7 +4871,7 @@ semver@^7.1.1, semver@^7.3.4, semver@^7.3.5, semver@^7.3.7, semver@^7.3.8:
   dependencies:
     lru-cache "^6.0.0"
 
-serverless-cloudflare-dns@^0.4.9:
+serverless-cloudflare-dns@0.4.9:
   version "0.4.9"
   resolved "https://registry.yarnpkg.com/serverless-cloudflare-dns/-/serverless-cloudflare-dns-0.4.9.tgz#f43825c86bde026fd635aaa2c3c7934f5138808c"
   integrity sha512-A6obVKEnqG/ewwUCglDfdlxMuTSjJIHCVaoANHL6S/Yip/J4cHlQ/OcrQFvWisdMh7ox1FaAyMA6GQli+0+DDw==
@@ -4883,14 +4883,14 @@ serverless-cloudflare-dns@^0.4.9:
     ramda "0.27.0"
     standard-version "8.0.2"
 
-serverless-domain-manager@^6.4.4:
+serverless-domain-manager@6.4.4:
   version "6.4.4"
   resolved "https://registry.yarnpkg.com/serverless-domain-manager/-/serverless-domain-manager-6.4.4.tgz#6432b6151b6695535c382377c642050e0bf29aae"
   integrity sha512-TrEjJgEY7sLbutWckfOAunduXUsQ/QkiGZwqfpvHttIDnkED10gQM1CJUj2K4UE+ih+QN3rKuHnc6Y6U5OnR0w==
   dependencies:
     aws-sdk "^2.1322.0"
 
-serverless-offline@^12.0.4:
+serverless-offline@12.0.4:
   version "12.0.4"
   resolved "https://registry.yarnpkg.com/serverless-offline/-/serverless-offline-12.0.4.tgz#93f60be0423867a5ebcf1cbc8d278e7bfa24e210"
   integrity sha512-G256wDHI12vE0CJ0uTJMBlfnaN7o7td4GgClvQtuedt/n7vKoUfN0och+LybD6YVGsR5h1xpYjPPPLy2QFqWaA==
@@ -4922,7 +4922,7 @@ serverless-offline@^12.0.4:
     velocityjs "^2.0.6"
     ws "^8.11.0"
 
-serverless@^3.28.1:
+serverless@3.28.1:
   version "3.28.1"
   resolved "https://registry.yarnpkg.com/serverless/-/serverless-3.28.1.tgz#2bdd90984a2d9dbd64694a57ee9105f4b0cffa9b"
   integrity sha512-zC+8ItbRYtJkIY5YZkU5RrCGd+JPkn8DUeGpHX6C9NKV/555DppiaMXURcNWJqN6VFV3fhmZrtefTzDF/B6+Rg==
@@ -5034,7 +5034,7 @@ signal-exit@^3.0.0, signal-exit@^3.0.2, signal-exit@^3.0.7:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.7.tgz#a9a1767f8af84155114eaabd73f99273c8f59ad9"
   integrity sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==
 
-simple-git@^3.16.0:
+simple-git@3.17.0, simple-git@^3.16.0:
   version "3.17.0"
   resolved "https://registry.yarnpkg.com/simple-git/-/simple-git-3.17.0.tgz#1a961fa43f697b4e2391cf34c8a0554ef84fed8e"
   integrity sha512-JozI/s8jr3nvLd9yn2jzPVHnhVzt7t7QWfcIoDcqRIGN+f1IINGv52xoZti2kkYfoRhhRvzMSNPfogHMp97rlw==
