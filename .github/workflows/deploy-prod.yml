@@ -1,7 +1,7 @@
 name: Deploy BOFH to Prod
 
 concurrency: 
-  group: production
+  group: environment-${{ github.ref }}
   cancel-in-progress: true
 
 on:
